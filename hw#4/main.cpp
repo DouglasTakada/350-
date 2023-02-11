@@ -1,7 +1,7 @@
 #include <iostream>
 
 int partition(int A[], int p, int q){
-
+    
     int pivot = A[q], middle = 0;
 
     for (int i = 0; i< q;i++){
